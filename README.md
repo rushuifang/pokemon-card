@@ -66,3 +66,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<img src="https://github.com/rushuifang/pokemon-card/blob/master/images/screenshot1.png">
+<img src="https://github.com/rushuifang/pokemon-card/blob/master/images/screenshot2.png">
