@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("./components/images/pokemon-background.png");
+    background-size: cover;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* Header.js */
+.poke-header {
+    background: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 2vw;
+    color: white;
+    font-family: "Recursive", sans-serif;
+    padding: 1vh 2vw;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pokeball-logo {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2vw;
+}
+
+.pokeball-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.title {
+    width: 50vw;
+    height: 5vw;
+    line-height: 5vw;
+}
+
+/* Pagination.js */
+.pagination-button {
+    margin-top: 10vw;
+    text-align: center;
+}
+
+/* PokemonList.js */
+.poke-card {
+    width: 20vw;
+    margin: 2.5vh 2.5vw;
+    float: left;
+    font-size: 1.4vw;
+}
+
+.card-image {
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(235, 223, 223);
+}
+
+/* PokemonDetail.js */
+.poke-detail {
+    width: 80vw;
+    margin: 8vw auto;
+    text-align: center;
+}
+
+.poke-detail-img {
+    z-index: 5;
+    background-image: url("./components/images/pokemon-background.jpg");
+    background-size: cover;
+    border-radius: 1vw;
+}
+.poke-stats {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 1vh auto;
+    justify-content: space-around;
+}
+
+.stats-title {
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.stats-progress {
+    width: 80%;
+}
+
+.poke-profile {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-title {
+    font-weight: bold;
+    width: 30%;
+    text-align: left;
+}
+
+.profile-value {
+    width: 70%;
+}
